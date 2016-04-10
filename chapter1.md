@@ -50,3 +50,16 @@ var noIdea: any = 22;
 noIdea = false; // can hold boolean type
 noIdea = "Second Guess"; // can even hold string type
 ```
+### <span style="color:#0086b3;">The classic enumerate type</span>
+<b>enum</b> type is available in the Type Script to use informative names instead of magic numbers in our code.
+```
+// Declaring Enumerate in type script
+enum direction = {EAST, WEST, NORTH, SOUTH};
+
+// Here EAST will have a value 0
+var east_direction = direaction.EAST;
+
+// We can also get direction from value
+var south_direction = direction[4];
+```
+
