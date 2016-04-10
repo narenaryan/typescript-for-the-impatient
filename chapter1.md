@@ -63,3 +63,14 @@ var east_direction = direaction.EAST;
 var south_direction = direction[4];
 ```
 
+### <span style="color:#0086b3;">Good old Void</span>
+If our program demands us to create a variable which only holds either <b>undefined</b> or <b>null</b> then we should declare that variable as a void type. It means <b>void</b> is complement to <b>any</b> type.
+
+```
+var noValue: void;
+noValue = undefined; //acceptable
+noValue = null; //acceptable
+noValue = 5; //typescript throws error 
+```
+
+With this, We can also make sure that JavaScript function should return nothing.
