@@ -1,1 +1,0 @@
-![](booktype1.png)
