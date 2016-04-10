@@ -2,7 +2,7 @@
 
 We all know that Java Script has only one type called <b>var</b>. All other variables which are not declared as <b>var</b> are of global scope. One more interesting thing is JavaScript has function scope whereas other traditional languages has block scope. Now we are going to see the rich set of types available in Type Script. There are three main types in TypeScript.
 
-###Basic Types
+### <span style="color:#eff000;">Basic Types</span>
 
 * number
 * string
@@ -27,7 +27,7 @@ age = "Twenty-Three";
 error: cannot store string type in number
 ```
 
-###More Types
+### <span style="color:red;">More Types</span>
 By extending these basic types we can have more advanced types like arrays, tuples, enums in the TypeScript.
 
 ```
@@ -43,5 +43,10 @@ error: Cannot store number type in string
 
 But, how we can relax this typing whenever required. Here comes the <b>any</b> key word.
 
-###'any' type
-<b>any</b> keyword is used to
+### <span style="color:green;">'any' type</span>
+<b>any</b> keyword is used to declare a variable which can hold any type. Normally we see such thing in dynamic programming languages. A variable can hold many types in it.
+```
+var noIdea: any = 22;
+noIdea = false; // can hold boolean type
+noIdea = "Second Guess"; // can even hold string type
+```
