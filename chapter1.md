@@ -36,4 +36,12 @@ var myStringArray: string[] = ["one","two","three"];
 ```
 If we try to assign a different value to the particular type we will see an error.
 
+```
+myStringArray[2] = 5;
+error: Cannot store number type in string
+```
 
+But, how we can relax this typing whenever required. Here comes the <b>any</b> key word.
+
+###'any' type
+<b>any</b> keyword is used to
