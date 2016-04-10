@@ -8,8 +8,8 @@ We all know that Java Script has only one type called <b>var</b>. All other vari
 
 All the values which TypeScript process will fall under one of these three types. Let us see few examples of these.
 
-```
-var name: string = "Naren";
+```             
+var name: string = "Naren Arya";
 var age: number = 24;
 var score: number = 8.3;
 var isMarried: boolean = false;
