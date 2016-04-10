@@ -2,6 +2,8 @@
 
 We all know that Java Script has only one type called <b>var</b>. All other variables which are not declared as <b>var</b> are of global scope. One more interesting thing is JavaScript has function scope whereas other traditional languages has block scope. Now we are going to see the rich set of types available in Type Script. There are three main types in TypeScript.
 
+###Basic Types
+
 * number
 * string
 * boolean
@@ -16,5 +18,22 @@ var isMarried: boolean = false;
 
 ```
 If we see the above statements a variable declaration in TypeScript is happening using types attached after the variable declaration.
+
+So if we try to store a string in integer type variable, TypeScript throws an error warning saying that we cannot store string in a number;
+
+```
+age = "Twenty-Three";
+
+error: cannot store string type in number
+```
+
+###More Types
+By extending these basic types we can have more advanced types like arrays, tuples, enums in the TypeScript.
+
+```
+var myNumberArray: number[] = [1,2,3,4,5];
+var myStringArray: string[] = ["one","two","three"];
+```
+If we try to assign a different value to the particular type we will see an error.
 
 
